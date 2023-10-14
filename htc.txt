@@ -1,0 +1,8 @@
+1. git init 初始化
+2. git remote add origin（自己的名称例如：chen） https://github.com/guobinhit/springmvc-tutorial.git（地址，直接在github上面复制）
+3. git remote -v （查看）
+4.  git pull origin（自己的名称） master（默认为main（需要修改为master））
+5.  git add test.txt（各种文件名称也是自己定）（不知道文件类型输入命令 git status会显示文件类型之间输入即可）
+6. git commit -m  “commit test（和第五步名称一样） file”
+7. git push origin（自己的名称要和上述统一） master 
+8. 后续添加任何文件只需重复567步即可
